@@ -1,0 +1,48 @@
+section(id="components")
+  h2 Drone Components
+  div(class="container")
+    div(class="row")
+      ul(class="components-list column column")
+        li
+          h5 Four Rotors
+          div(class="content row invisible")
+            div(class="column column-33")
+              img(class="rotor" src=require("../assets/img/rotor.png"))
+            div(class="column column-67")
+              p(class="descripton") As the name implies, <i>quad</i>copters have 4 rotors which provide the vehicle's lift. Rotors are often made of plastic and are easily replaced.
+        li
+          h5 Motors
+          div(class="content row right")
+            div(class="column column-75")
+              p Four electric motors power the rotors, often spinning at up to 28000 RPM. Two spin in clockwise direction and the other two spin counter-clockwise.
+            div(class="column column-25")
+              img(class="motor" src=require("../assets/img/motor.png"))
+        li
+          h5 Flight Controller
+          div(class="content row")
+            div(class="column column-40")
+              img(class="controller" src=require("../assets/img/controller.png"))
+            div(class="column column-60")
+              p The flight controller is the computer that acts as the brain of the quadcopter. It has sensors that measure and react to movement, acceleration and air pressure. The controller is also often equipped with GPS and a camera.
+      ul(class="components-list column")
+        li
+          h5 Battery
+          div(class="content row")
+            div(class="column column-33")
+              img(class="battery" src=require("../assets/img/battery.png"))
+            div(class="column column-67")
+              p Quadcopters are commonly powered by 4800 mAh lithium-polymer batteries. The battery powers the flight controller and the motors. Current batteries give quadcopters a flight time of approximately 25 minutes.
+        li
+          h5 Body
+          div(class="content row")
+            div(class="column column-75")
+              p All parts are attached to the body of the drone. Usually designed to be aerodynamic and made of extremely lightweight material, the body helps the craft efficiently fly through the sky.
+            div(class="column column-25")
+              img(class="body" src=require("../assets/img/body.png"))
+        li
+          h5 Camera
+          div(class="content row")
+            div(class="column column-33")
+              img(class="motor" src=require("../assets/img/camera.png"))
+            div(class="column column-67")
+              p Drones are often equipped with cameras which makes them terrific for videography.
